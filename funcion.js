@@ -11,11 +11,8 @@ function Validacion() {
 
     if (!Vali) {
         document.getElementById("texto-entrada").value = '';
-        // document.getElementById("imagen").style.display = "show";
         document.getElementById("imagen").style.display = "block";
-        // document.getElementById("info-text1").style.display = "show";
         document.getElementById("info-text1").style.display = "block";
-        // document.getElementById("info-text2").style.display = "show";
         document.getElementById("info-text2").style.display = "block";
         document.getElementById("texto-salida").style.display = "none";
     }
@@ -26,9 +23,7 @@ function Esconder() {
     document.getElementById("imagen").style.display = "none";
     document.getElementById("info-text1").style.display = "none";
     document.getElementById("info-text2").style.display = "none";
-    //document.getElementById("boton-copia").style.display = "show";
     document.getElementById("boton-copia").style.display = "block";
-    // document.getElementById("texto-salida").style.display = "show";
     document.getElementById("texto-salida").style.display = "block";
 };
 //FUNCION ENCRIPTAR
