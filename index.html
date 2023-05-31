@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+
+    <title>Encriptador de Texto</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecera">
+            <img class="logocabecera" src="./imagenes/Vector.png" alt="">
+            <h1 class="titulo">Encriptador de texto</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="cajas">
+            <div class="parteingreso">
+
+                <textarea name="texto-entrada" id="texto-entrada" class="ingreso" cols="30" rows="10" placeholder="Ingrese texto aqui"></textarea>
+                <h6 class="condiciones"><img src="./imagenes/Vector1.png" alt=""> Solo minusculas sin ningun acento</h6>
+                <div class="areabotonesencriptar">
+                    <button class="botonesencriptar" id="boton-encri">Encriptar</button>
+                    <button class="botonesencriptar" id="boton-desencri">Desencriptar</button>
+                </div>
+                    
+
+            </div>
+            <div class="partecopia">
+                <div>
+                    <textarea name="" readonly id="texto-salida" class="copia1" cols="30" rows="10"></textarea>
+                    <img src="./imagenes/Muñeco.png" alt="" id="imagen" class="imagen">
+                    <h4 id="info-text1">
+                        Ningún mensaje fue encontrado
+                    </h4>
+                    <h5 id="info-text2">
+                        Ingresa el texto que deseas encriptar o desencriptar.
+                    </h5>
+                </div>
+                <div class="areabotoncopiar">
+                    <button  id="boton-copia" class="botoncopiar">Copiar</button>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <br>
+    <footer>
+        <p>Desarrollado Por Juan David Rios Escudero</p>
+
+    </footer>
+    <script src="funcion.js"></script>
+</body>
+
+</html>

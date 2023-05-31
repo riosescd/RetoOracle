@@ -1,0 +1,153 @@
+* {
+    font-family: "Trebuchet MS"
+}
+
+body {
+    background-color: #6f7a87;
+}
+
+header {
+    width: 940px;
+}
+
+.cabecera {
+    background-color: #63A0EB;
+    margin-top: 30px;
+    margin-left: 150px;
+    display: flex;
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logocabecera {
+    padding: 20px 80px;
+}
+
+.titulo {
+    padding-left: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto con desplazamiento horizontal de 2px, desplazamiento vertical de 2px, desenfoque de 4px y opacidad de 0.5 */
+    
+}
+
+main {
+    width: 940px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+section {
+    display: flex;
+}
+
+.cajas {
+    width: 100%;
+}
+
+.parteingreso {
+    width: 80%;
+    border-radius: 30px;
+    background-color: #6f7a87;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.partecopia {
+    padding: 40px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    width: 90%;
+    margin-left: 110px;
+    border-radius: 30px;
+    background-color: #63A0EB;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+}
+
+.ingreso {
+    background: none;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    border-radius: 30px;
+    width: 70%;
+    color: #0c2a6e
+}
+
+.ingreso::placeholder {
+    color: #000000;
+}
+
+.condiciones {
+    text-align: center;
+    margin: 0;
+    margin-right: 60px;
+    padding-bottom:  20px;
+
+}
+
+.copia1 {
+    position: absolute;
+    outline: none;
+    background: none;
+    border: none;
+    resize: none;
+    font-size: 18px;
+    color: #0c2a6e;
+}
+
+.imagen {
+    margin-top: 30px;
+    height: 250px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.botonesencriptar {
+    margin: 0 20px;
+    background-color: azure;
+    width: 120px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 1em;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.botonesencriptar:hover{
+    cursor: pointer;
+    width: 140px;
+    height: 60px;
+    transition: 300ms;
+    background-color: #1e6dd4;
+}
+.areabotoncopiar {
+    text-align: center;
+    margin: 0 auto;
+}
+.botoncopiar{
+    /* position: relative; */
+    background-color: azure;
+    width: 120px;
+    font-size: 1em;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.botoncopiar:hover{
+    cursor: pointer;
+    width: 140px;
+    height: 60px;
+    transition: 300ms;
+    background-color: #1e6dd4;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
